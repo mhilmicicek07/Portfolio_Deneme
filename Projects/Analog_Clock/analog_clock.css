@@ -1,0 +1,139 @@
+:root {
+    --white-clr: #fff;
+    --dark-clr: #1a1a1a;
+    --red-color: rgb(155, 11, 11);
+    --white-clr-2: #ececec;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--white-clr);
+    transition: background 0.3s ease;
+}
+
+.container.dark {
+    --white-clr: #1a1a1a;
+    --dark-clr: #fff;
+    --red-color: rgb(155, 11, 11);
+    --white-clr-2: #3a3a3a;
+}
+
+.clock {
+    height: 400px;
+    width: 400px;
+    background-color: var(--white-clr-2);
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Saat sayıları */
+.clock .outer {
+    position: absolute;
+    inset: 20px;
+    text-align: center;
+    transform: rotate(calc(var(--i)*30deg));
+}
+
+.clock .outer .inner {
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--dark-clr);
+    font-size: 1.7rem;
+    display: inline-block;
+    transform: rotate(calc(var(--i)*-30deg));
+}
+
+/* Indicator (saat ortası) */
+.container .indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    transform: translate(-50%, -50%);
+}
+
+/* Ortadaki küçük daire */
+.container .indicator::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    background-color: var(--red-color);
+    border-radius: 50%;
+    border: 3px solid black;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+/* İbreler */
+.container .hand {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom center;
+    transform: translateX(-50%) rotate(var(--rot, 0deg));
+    border-radius: 25px;
+    transition: none;
+    /* tik-tik efektini JS ile kontrol edeceğiz */
+}
+
+/* Saat ibresi */
+.hand.hour {
+    width: 8px;
+    height: 100px;
+    background-color: var(--dark-clr);
+}
+
+/* Dakika ibresi */
+.hand.minute {
+    width: 6px;
+    height: 120px;
+    background-color: var(--dark-clr);
+}
+
+/* Saniye ibresi */
+.hand.second {
+    width: 4px;
+    height: 140px;
+    background-color: var(--red-color);
+}
+
+/* Tema değiştirici buton */
+.theme-switch {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    color: var(--white-clr-2);
+    background-color: var(--dark-clr);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* inset => top left bottom right değerleri için kısayol özelliği    
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    yerine kullanılır    
+*/

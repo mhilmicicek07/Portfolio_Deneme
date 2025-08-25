@@ -1,0 +1,130 @@
+/* Genel Tasarım */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Başlık */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Zorluk Butonları */
+.difficulty-container {
+    margin-bottom: 20px;
+}
+
+.difficulty-btn {
+    background: #1abc9c;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 1rem;
+}
+
+.difficulty-btn:hover {
+    background: #16a085;
+}
+
+/* Skor Tablosu */
+.score-board {
+    margin: 20px auto;
+    background: #2c3e50;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.badge {
+    background: #e74c3c;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+/* Seçim Alanı */
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.choice {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.choice img {
+    width: 80px;
+    height: 80px;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
+}
+
+.choice:hover {
+    transform: scale(1.2);
+}
+
+/* Sonuç Mesajı */
+#result {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    min-height: 25px;
+}
+
+/* Reset Butonu */
+.reset {
+    margin-top: 15px;
+    padding: 8px 18px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.reset:hover {
+    background: #2980b9;
+}
+
+/* Gizleme Sınıfı */
+.hidden {
+    display: none;
+}
+
+/* Konfeti Canvas */
+#confetti {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 100;
+}

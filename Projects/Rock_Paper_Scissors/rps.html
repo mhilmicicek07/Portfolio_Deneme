@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h1>Rock Paper Scissors</h1>
+
+        <!-- Zorluk Seçim Alanı -->
+        <div class="difficulty-container">
+            <h2>Select Difficulty</h2>
+            <button class="difficulty-btn" data-score="7">Easy</button>
+            <button class="difficulty-btn" data-score="5">Medium</button>
+            <button class="difficulty-btn" data-score="3">Hard</button>
+        </div>
+
+        <!-- Oyun Alanı -->
+        <div class="score-board hidden">
+            <div id="userLabel" class="badge">User</div>
+            <span id="userScore">0</span> : <span id="computerScore">0</span>
+            <div id="computerLabel" class="badge">Comp</div>
+        </div>
+
+        <div class="choices hidden">
+            <div class="choice" id="rock">
+                <img src="./img/rock-emoji.png" alt="Rock">
+            </div>
+            <div class="choice" id="paper">
+                <img src="./img/paper-emoji.png" alt="Paper">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="./img/scissors-emoji.png" alt="Scissors">
+            </div>
+        </div>
+
+        <p id="result" class="hidden">Game Starts Now!</p>
+        <button class="reset hidden">Reset Game</button>
+    </div>
+
+    <canvas id="confetti"></canvas>
+    <script src="rps.js"></script>
+</body>
+
+</html>
