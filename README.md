@@ -1,87 +1,83 @@
 # 🌐 Portfolio Deneme
 
-Bu proje, geliştirici **Mehmet Hilmi Çiçek**’in web geliştirme alanındaki çalışmalarını sergilediği kişisel bir **Portfolio (Portföy) web sitesidir**.  
-Uygulama, geliştiricinin projelerini, kendini tanıttığı kısa bir bölümü ve iletişim bilgilerini sade, modern ve responsive (mobil uyumlu) bir tasarımla sunar.
+[TR](#türkçe) | [ENG](#english) | [DE](#deutsch)
 
 ---
 
-## 🚀 Özellikler
+## Türkçe
 
-- 🧍‍♂️ **About Me (Hakkımda)** — Geliştirici hakkında kısa tanıtım yazısı.  
-- 💼 **My Projects (Projelerim)** — Proje görselleri, açıklamaları ve doğrudan bağlantılar.  
+Bu proje, geliştirici **Mehmet Hilmi Çiçek**’in web geliştirme alanındaki çalışmalarını sergilediği kişisel bir **Portfolio (Portföy) web sitesidir**.  
+Uygulama; projelerini, kendini tanıttığı kısa bir bölümü ve iletişim bilgilerini sade, modern ve responsive (mobil uyumlu) bir tasarımla sunar.
+
+### 🚀 Özellikler
+- 🧍‍♂️ **Hakkımda** — Geliştirici hakkında kısa tanıtım yazısı.  
+- 💼 **Projelerim** — Proje görselleri, açıklamaları ve doğrudan bağlantılar.  
 - 🧭 **Basit Navigasyon** — Header bölümünden tek tıklamayla projelere geçiş.  
 - 📱 **Responsive Tasarım** — Tüm cihazlarda (mobil, tablet, masaüstü) uyumlu görünüm.  
 - 🎨 **Modern Arayüz** — Şeffaf katmanlar, sade renk paleti ve hover efektleri.  
 - 📬 **İletişim Alanı** — Sosyal medya ikonları ve iletişim bilgileri.
 
+### 🧩 Kullanılan Teknolojiler
+- **HTML5** (Sayfa yapısı)
+- **CSS3** (Tasarım ve Responsive yapı)
+- **JavaScript (ES6)** (Etkileşim)
+- **Font Awesome** (İkonlar)
+- **Google Fonts** (Tipografi)
+
+### 📂 Projeler
+1. **ToDo List** - Görev yönetimi uygulaması.
+2. **Cars Project** - Araç listeleme/tanıtım sayfası.
+3. **Analog Clock** - Dinamik analog saat.
+4. **Stop Watch** - Kronometre uygulaması.
+5. **Taş Kağıt Makas** - Klasik el oyunu.
+
 ---
 
-## 🧩 Kullanılan Teknolojiler
+## English
 
-| Teknoloji | Rolü |
-|------------|-----------|
-| **HTML5** | Sayfa yapısının oluşturulması. |
-| **CSS3** | Görsel tasarım, renk, tipografi ve responsive yapı. |
-| **Font Awesome** | Sosyal medya ve ikon setleri için. |
-| **Google Fonts (Open Sans)** | Modern, okunabilir yazı tipi. |
-| **JavaScript (ES6)** | Proje bağlantılarında yönlendirme ve etkileşim (genişletilebilir yapı). |
+This project is a personal **Portfolio website** showcasing the web development work of **Mehmet Hilmi Çiçek**.  
+The application presents his projects, a brief "About Me" section, and contact information with a simple, modern, and responsive design.
+
+### 🚀 Features
+- 🧍‍♂️ **About Me** — A short introduction of the developer.  
+- 💼 **My Projects** — Project screenshots, descriptions, and direct links.  
+- 🧭 **Simple Navigation** — One-click access to projects from the header.  
+- 📱 **Responsive Design** — Compatible view across all devices (mobile, tablet, desktop).  
+- 🎨 **Modern Interface** — Transparent layers, clean color palette, and hover effects.  
+- 📬 **Contact Section** — Social media icons and contact details.
+
+### 🧩 Technologies Used
+- **HTML5** (Page structure)
+- **CSS3** (Styling and Responsive layout)
+- **JavaScript (ES6)** (Interactivity)
+- **Font Awesome** (Icons)
+- **Google Fonts** (Typography)
 
 ---
 
-## 📂 Proje Dosya Yapısı
+## Deutsch
 
-📁 **Portfolio_Deneme**  
-├── 📁 img  
-│   ├── header-bg.jpg  
-│   ├── todolist.jpg  
-│   ├── cars.jpg  
-│   ├── analog_clock.jpg  
-│   ├── stopwatch.jpg  
-│   └── tas-kagit-makas.jpg  
-└── 📁 Projects  
-│　 ├── 📁 ToDo_Project  
-│　 ├── 📁 Cars_Project  
-│　 ├── 📁 Analog_Clock  
-│　 ├── 📁 Stop_Watch  
-│　 └── 📁 Rock_Paper_Scissors  
-├── 📄 index.html  
-├── 📄 README.md  
-└── 📄 style.css
+Dieses Projekt ist eine persönliche **Portfolio-Website**, die die Webentwicklungsprojekte von **Mehmet Hilmi Çiçek** präsentiert.  
+Die Anwendung umfasst Projekte, einen kurzen „Über mich“-Abschnitt und Kontaktinformationen in einem einfachen, modernen und responsiven Design.
+
+### 🚀 Funktionen
+- 🧍‍♂️ **Über mich** — Eine kurze Vorstellung des Entwicklers.  
+- 💼 **Meine Projekte** — Projektbilder, Beschreibungen und direkte Links.  
+- 🧭 **Einfache Navigation** — Zugriff auf Projekte mit einem Klick über den Header.  
+- 📱 **Responsives Design** — Optimierte Darstellung auf allen Geräten (Mobil, Tablet, Desktop).  
+- 🎨 **Moderne Benutzeroberfläche** — Transparente Ebenen, schlichte Farbpalette und Hover-Effekte.  
+- 📬 **Kontaktbereich** — Social-Media-Icons und Kontaktinformationen.
+
+### 🧩 Verwendete Technologien
+- **HTML5** (Seitenstruktur)
+- **CSS3** (Design und responsives Layout)
+- **JavaScript (ES6)** (Interaktivität)
+- **Font Awesome** (Icons)
+- **Google Fonts** (Typografie)
+
 ---
 
-## ⚙️ Kurulum ve Çalıştırma
-
-Bu portföyü kendi bilgisayarında görüntülemek için şu adımları izleyebilirsin:
-
-1. Projeyi klonla:  
-   ```bash
-   git clone https://github.com/mhilmicicek07/Portfolio_Deneme.git
-Proje klasörüne gir:
-
-
-cd Portfolio_Deneme
-index.html dosyasını bir web tarayıcısında aç.
-Artık portföyünü yerel ortamında görüntüleyebilir ve projelere tıklayarak deneyebilirsin. 🎉
-
-🧠 Teknik Açıklama
-index.html ana sayfa yapısını, başlıkları ve bağlantıları içerir.
-
-style.css dosyası; renk düzeni, tipografi, responsive yapı ve görsel efektleri yönetir.
-
-Projects klasörü, her bir proje için ayrı HTML dosyalarını barındırır.
-
-img klasörü, proje ekran görüntüleri ve arka plan görsellerini içerir.
-
-Yeni bir proje eklemek için yalnızca Projects klasörüne yeni bir klasör ekleyip index.html içine yeni bir kart eklemen yeterlidir.
-
-👨‍💻 Geliştirici
-Mehmet Hilmi Çiçek
-💼 Full Stack Web Developer
+### 👨‍💻 Developer
+**Mehmet Hilmi Çiçek**  
+Full Stack Web Developer  
 📍 Geislingen an der Steige, Germany
-
-“Basit ama tutarlı kod, karmaşık olandan her zaman üstündür.”
-
-🪪 Lisans
-
-Bu proje açık kaynaklıdır.
-Kodu inceleyebilir, geliştirebilir veya kişisel portföy projelerinde örnek olarak kullanabilirsiniz.
