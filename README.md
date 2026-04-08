@@ -24,12 +24,17 @@ Uygulama; projelerini, kendini tanıttığı kısa bir bölümü ve iletişim bi
 - **Font Awesome** (İkonlar)
 - **Google Fonts** (Tipografi)
 
+### 🚦 Çalıştırma / Running
+- Ana portföy sayfası için `index.html` dosyasını tarayıcıda açmanız yeterli.
+- Her alt proje bağımsız çalışır; ilgili HTML dosyasını (`Projects/ToDo_Project/todo_project.html` vb.) doğrudan açabilirsiniz.
+- Ek bir build veya paket kurulumu yok; harici kütüphaneler CDN üzerinden (Font Awesome 6.4, Google Fonts Poppins) yüklenir.
+
 ### 📂 Projeler
-1. **ToDo List** - Görev yönetimi uygulaması.
-2. **Cars Project** - Araç listeleme/tanıtım sayfası.
-3. **Analog Clock** - Dinamik analog saat.
-4. **Stop Watch** - Kronometre uygulaması.
-5. **Taş Kağıt Makas** - Klasik el oyunu.
+1. **ToDo List** (`Projects/ToDo_Project/todo_project.html`) - Görev yönetimi uygulaması.
+2. **Cars Project** (`Projects/Cars_Project/cars_project.html`) - Araç listeleme/tanıtım sayfası.
+3. **Analog Clock** (`Projects/Analog_Clock/analog_clock.html`) - Dinamik analog saat.
+4. **Stop Watch** (`Projects/Stop_Watch/stop_watch.html`) - Kronometre uygulaması.
+5. **Taş Kağıt Makas** (`Projects/Rock_Paper_Scissors/rps.html`) - Klasik el oyunu.
 
 ---
 
@@ -53,6 +58,18 @@ The application presents his projects, a brief "About Me" section, and contact i
 - **Font Awesome** (Icons)
 - **Google Fonts** (Typography)
 
+### 🚦 Running
+- Open `index.html` in your browser to see the main portfolio page.
+- Each mini app is self-contained; open its HTML file directly (for example `Projects/Cars_Project/cars_project.html`).
+- No build or dependency installation is needed; assets are served via CDN (Font Awesome 6.4, Google Fonts Poppins).
+
+### 📂 Projects
+1. **ToDo List** (`Projects/ToDo_Project/todo_project.html`) - Task management app.
+2. **Cars Project** (`Projects/Cars_Project/cars_project.html`) - Vehicle listing/presentation page.
+3. **Analog Clock** (`Projects/Analog_Clock/analog_clock.html`) - Dynamic analog clock.
+4. **Stop Watch** (`Projects/Stop_Watch/stop_watch.html`) - Stopwatch utility.
+5. **Rock Paper Scissors** (`Projects/Rock_Paper_Scissors/rps.html`) - Classic hand game.
+
 ---
 
 ## Deutsch
@@ -74,6 +91,18 @@ Die Anwendung umfasst Projekte, einen kurzen „Über mich“-Abschnitt und Kont
 - **JavaScript (ES6)** (Interaktivität)
 - **Font Awesome** (Icons)
 - **Google Fonts** (Typografie)
+
+### 🚦 Ausführen
+- Öffne `index.html` im Browser, um die Portfolio-Startseite zu sehen.
+- Jedes Mini-Projekt läuft eigenständig; öffne einfach die passende HTML-Datei (z. B. `Projects/Analog_Clock/analog_clock.html`).
+- Keine Builds oder Installationen nötig; Abhängigkeiten kommen über CDN (Font Awesome 6.4, Google Fonts Poppins).
+
+### 📂 Projekte
+1. **ToDo List** (`Projects/ToDo_Project/todo_project.html`) - Aufgabenverwaltung.
+2. **Cars Project** (`Projects/Cars_Project/cars_project.html`) - Fahrzeugliste/Präsentation.
+3. **Analog Clock** (`Projects/Analog_Clock/analog_clock.html`) - Dynamische Analog-Uhr.
+4. **Stop Watch** (`Projects/Stop_Watch/stop_watch.html`) - Stoppuhr-Anwendung.
+5. **Schere, Stein, Papier** (`Projects/Rock_Paper_Scissors/rps.html`) - Klassisches Handspiel.
 
 ---
 
