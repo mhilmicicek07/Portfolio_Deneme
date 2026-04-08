@@ -18,8 +18,12 @@ let winningScore = 5;
 // Konfeti Canvas
 const confettiCanvas = document.getElementById("confetti");
 const ctx = confettiCanvas.getContext("2d");
-confettiCanvas.width = window.innerWidth;
-confettiCanvas.height = window.innerHeight;
+const resizeCanvas = () => {
+    confettiCanvas.width = window.innerWidth;
+    confettiCanvas.height = window.innerHeight;
+};
+resizeCanvas();
+window.addEventListener("resize", resizeCanvas);
 
 // Konfeti parçacıkları
 let confetti = [];
