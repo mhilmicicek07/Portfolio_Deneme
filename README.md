@@ -4,40 +4,6 @@
 
 ---
 
-## Türkçe
-
-Bu proje, geliştirici **Mehmet Hilmi Çiçek**’in web geliştirme alanındaki çalışmalarını sergilediği kişisel bir **Portfolio (Portföy) web sitesidir**.  
-Uygulama; projelerini, kendini tanıttığı kısa bir bölümü ve iletişim bilgilerini sade, modern ve responsive (mobil uyumlu) bir tasarımla sunar.
-
-### 🚀 Özellikler
-- 🧍‍♂️ **Hakkımda** — Geliştirici hakkında kısa tanıtım yazısı.  
-- 💼 **Projelerim** — Proje görselleri, açıklamaları ve doğrudan bağlantılar.  
-- 🧭 **Basit Navigasyon** — Header bölümünden tek tıklamayla projelere geçiş.  
-- 📱 **Responsive Tasarım** — Tüm cihazlarda (mobil, tablet, masaüstü) uyumlu görünüm.  
-- 🎨 **Modern Arayüz** — Şeffaf katmanlar, sade renk paleti ve hover efektleri.  
-- 📬 **İletişim Alanı** — Sosyal medya ikonları ve iletişim bilgileri.
-
-### 🧩 Kullanılan Teknolojiler
-- **HTML5** (Sayfa yapısı)
-- **CSS3** (Tasarım ve Responsive yapı)
-- **JavaScript (ES6)** (Etkileşim)
-- **Font Awesome** (İkonlar)
-- **Google Fonts** (Tipografi)
-
-### 🚦 Çalıştırma / Running
-- Ana portföy sayfası için `index.html` dosyasını tarayıcıda açmanız yeterli.
-- Her alt proje bağımsız çalışır; ilgili HTML dosyasını (`Projects/ToDo_Project/todo_project.html` vb.) doğrudan açabilirsiniz.
-- Ek bir build veya paket kurulumu yok; harici kütüphaneler CDN üzerinden (Font Awesome 6.4, Google Fonts Poppins) yüklenir.
-
-### 📂 Projeler
-1. **ToDo List** (`Projects/ToDo_Project/todo_project.html`) - Görev yönetimi uygulaması.
-2. **Cars Project** (`Projects/Cars_Project/cars_project.html`) - Araç listeleme/tanıtım sayfası.
-3. **Analog Clock** (`Projects/Analog_Clock/analog_clock.html`) - Dinamik analog saat.
-4. **Stop Watch** (`Projects/Stop_Watch/stop_watch.html`) - Kronometre uygulaması.
-5. **Taş Kağıt Makas** (`Projects/Rock_Paper_Scissors/rps.html`) - Klasik el oyunu.
-
----
-
 ## English
 
 This project is a personal **Portfolio website** showcasing the web development work of **Mehmet Hilmi Çiçek**.  
@@ -69,6 +35,40 @@ The application presents his projects, a brief "About Me" section, and contact i
 3. **Analog Clock** (`Projects/Analog_Clock/analog_clock.html`) - Dynamic analog clock.
 4. **Stop Watch** (`Projects/Stop_Watch/stop_watch.html`) - Stopwatch utility.
 5. **Rock Paper Scissors** (`Projects/Rock_Paper_Scissors/rps.html`) - Classic hand game.
+
+---
+
+## Türkçe
+
+Bu proje, geliştirici **Mehmet Hilmi Çiçek**’in web geliştirme alanındaki çalışmalarını sergilediği kişisel bir **Portfolio (Portföy) web sitesidir**.  
+Uygulama; projelerini, kendini tanıttığı kısa bir bölümü ve iletişim bilgilerini sade, modern ve responsive (mobil uyumlu) bir tasarımla sunar.
+
+### 🚀 Özellikler
+- 🧍‍♂️ **Hakkımda** — Geliştirici hakkında kısa tanıtım yazısı.  
+- 💼 **Projelerim** — Proje görselleri, açıklamaları ve doğrudan bağlantılar.  
+- 🧭 **Basit Navigasyon** — Header bölümünden tek tıklamayla projelere geçiş.  
+- 📱 **Responsive Tasarım** — Tüm cihazlarda (mobil, tablet, masaüstü) uyumlu görünüm.  
+- 🎨 **Modern Arayüz** — Şeffaf katmanlar, sade renk paleti ve hover efektleri.  
+- 📬 **İletişim Alanı** — Sosyal medya ikonları ve iletişim bilgileri.
+
+### 🧩 Kullanılan Teknolojiler
+- **HTML5** (Sayfa yapısı)
+- **CSS3** (Tasarım ve Responsive yapı)
+- **JavaScript (ES6)** (Etkileşim)
+- **Font Awesome** (İkonlar)
+- **Google Fonts** (Tipografi)
+
+### 🚦 Çalıştırma / Running
+- Ana portföy sayfası için `index.html` dosyasını tarayıcıda açmanız yeterli.
+- Her alt proje bağımsız çalışır; ilgili HTML dosyasını (`Projects/ToDo_Project/todo_project.html` vb.) doğrudan açabilirsiniz.
+- Ek bir build veya paket kurulumu yok; harici kütüphaneler CDN üzerinden (Font Awesome 6.4, Google Fonts Poppins) yüklenir.
+
+### 📂 Projeler
+1. **ToDo List** (`Projects/ToDo_Project/todo_project.html`) - Görev yönetimi uygulaması.
+2. **Cars Project** (`Projects/Cars_Project/cars_project.html`) - Araç listeleme/tanıtım sayfası.
+3. **Analog Clock** (`Projects/Analog_Clock/analog_clock.html`) - Dinamik analog saat.
+4. **Stop Watch** (`Projects/Stop_Watch/stop_watch.html`) - Kronometre uygulaması.
+5. **Taş Kağıt Makas** (`Projects/Rock_Paper_Scissors/rps.html`) - Klasik el oyunu.
 
 ---
 
